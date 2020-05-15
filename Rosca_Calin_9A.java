@@ -11,7 +11,7 @@ do{
     System.out.println(i);
     i+=2;
     }
-    while(i<=n);
+    while(i<=n*2);
 
     
 }
@@ -19,7 +19,8 @@ do{
 
 
 
-
+
+
 import java.util.Scanner;
 public class Sample{
 
@@ -42,7 +43,8 @@ System.out.println(z);
 }
 
 
-
+
+
 import java.util.Scanner;
 public class Sample{
 
@@ -51,7 +53,7 @@ int i=1;
 while(i<=5){
     int c=1;
     while(c<=i){
-     System.out.printf("5%d",c);
+     System.out.printf("%5d",c);
      c++;
         
         
